@@ -1,0 +1,13 @@
+{
+  "name": "reply-guy-ai",
+  "version": "0.1.0",
+  "description": "none",
+  "main": "index.js",
+  "author": "ty",
+  "license": "none",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
