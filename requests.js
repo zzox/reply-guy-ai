@@ -32,7 +32,7 @@ exports.sendPrompt = (prompt) =>
     },
     body: JSON.stringify({
       prompt,
-      temperature: 0.1,
+      temperature: 0.8,
       max_tokens: 64
     })
   }).then(handleResponse)

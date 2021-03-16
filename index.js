@@ -151,7 +151,7 @@ const run = async (accounts) => {
       if (process.env.NODE_ENV === 'production') {
         // TODO: tweet this reply, as long as we haven't replied to it
       } else {
-        console.info(`Statement: ${targetTweet}`)
+        console.info(`Tweet: ${targetTweet}`)
         console.info(`Reply: ${result.choices[0].text.split('\n')[0]}`)
         console.info(`\n\n\n`)
       }
@@ -163,15 +163,4 @@ const run = async (accounts) => {
 
 // TODO: load data if there is any on these people, saved in .json afterwords
 // save first tween when initiated
-run([
-  { name: 'byyourlogic' },
-  { name: 'dril' },
-  { name: 'cushbomb' },
-  { name: 'willmenaker' },
-  { name: 'bro_pair' },
-  { name: 'jeremylevick' },
-  { name: 'adamconover' },
-  { name: 'pattymo' },
-  { name: 'pixelatedboat' },
-  { name: 'internethippo' }
-])
+run([{ name: 'twitter', tweetId: '1370410960394067970' }])
